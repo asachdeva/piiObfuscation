@@ -1,12 +1,8 @@
-# Data Protection Demo
+# PII Obfuscation
 
-Data Protection targeting Scala 2.12 and Apache Spark 3.0.x
+PII Obfuscation targeting Scala 2.12 and Apache Spark 3.0.1
 
 ### Testing and coverage
-
-Using the integrated tools in IntelliJ is the best option for running tests and generating code coverage. The solution
-has been configured for use with JaCoCo to produce coverage results in the build pipeline. To use JaCoCo to generate
-the code coverage information execute the following from the integrated SBT shell.
 
 ```bash
 sbt> jacoco
